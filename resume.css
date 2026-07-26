@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+   padding-left: 45%;
+    background-color: whitesmoke;
+    font-size: 35px;
+    font-style: arial;
+}
+
+.nevbar{
+    background-color:white;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    height: 60px;
+    box-shadow: 2px 0px 2px 0px;
+  
+}
+.nevbar>div{
+    font-size: larger;
+    font-style: arial;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+     
+}
+.nevbar>div:hover{
+    height: 65px;
+}
+
+.About{
+    height: 200px;
+    background-image: url(./img3.jpg) ;
+    background-size: 100%;
+   padding-left: 20px;
+   align-content: center;
+   }
+
+.About>P{
+    font-size: 20px;
+    font-style: arial;
+}
+.skills{
+        height: 200px;
+    background-image: url(./new.jpg);
+    background-size: 100%;
+   padding-left: 30px;
+   align-content: center;
+   background-color:rgb(236, 232, 232);
+    color:black;
+}
+.skills>ul>li{
+      font-size: 20px;
+    font-style: arial;
+   
+}
+.education{
+    background-image: url(./new2.jpg);
+    background-size: 100%;
+      height: 200px;
+      padding-left: 30px;
+   align-content: center;
+   background-color:rgb(254, 252, 252);
+   color: wheat; 
+}
+.education>P{
+     font-size: 20px;
+    font-style: arial;
+}
+.contact{
+    background-image: url(./con.webp);
+    background-size: 100%;
+     height: 200px;
+      padding-left: 30px;
+   align-content: center;
+   background-color:rgb(254, 252, 252);
+   color:black;
+}
+.contact>p{
+     font-size: 20px;
+    font-style: arial;
+}
